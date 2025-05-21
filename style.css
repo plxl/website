@@ -6,6 +6,11 @@ html {
     font-family: 'Segoe UI', sans-serif;
 }
 
+.clean-text {
+    text-decoration: none;
+    user-select: none;
+}
+
 .background {
     background: linear-gradient(135deg, #2e0c3d, #000000);
     background-size: cover;
