@@ -32,7 +32,7 @@ html {
     padding: 2rem 3rem;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 2px solid rgba(255, 255, 255, 0.18);
-    color: white;
+    color: #e0e0e0;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -76,7 +76,7 @@ html {
     position: absolute;
     width: 100%;
     top: 0;
-    color: white;
+    color: #e0e0e0;
     text-align: center;
 }
 
@@ -84,14 +84,14 @@ html {
     position: absolute;
     width: 100%;
     bottom: 0;
-    color: white;
+    color: #e0e0e0;
     text-align: center;
 }
 
-.footer a:link { color: white; }
-.footer a:visited { color: white; }
-.footer a:hover { color: white; }
-.footer a:active { color: white; }
+.footer a:link { color: #e0e0e0; }
+.footer a:visited { color: #e0e0e0; }
+.footer a:hover { color: #e0e0e0; }
+.footer a:active { color: #e0e0e0; }
 
 .h1, body {
     line-height: 0.8;
