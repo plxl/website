@@ -4,6 +4,7 @@ html {
     padding: 0;
     height: 100%;
     font-family: 'Segoe UI', sans-serif;
+    background-color: black;
 }
 
 .clean-text {
