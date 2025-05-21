@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css" />
     <!-- defaults for links to open in new tab -->
     <base target="_blank">
-    <base rel="noopener noreferrer">
 </head>
 
 <body>
@@ -36,19 +35,25 @@
     </div>
 
     <div class="background">
-        <!-- clickable glass card, text cannot be selected, link opens in new tab -->
+        <!-- clickable glass card, text cannot be selected -->
         <a href="https://github.com/plxl" class="glass-card" style="text-decoration: none; user-select: none;">
             <h1>GitHub</h1>
             <p>Check out my latest projects</p>
         </a>
     </div>
-
+    
     <!-- credits -->
     <div class="footer">
         <p>Check back for more soon!</p>
         <p>Wave animation modified from <a href="https://codepen.io/goodkatz/pen/LYPGxQz">Goodkatz</a></p>
     </div>
 
+    <script>
+        // prevent reverse tabnabbing
+        document.querySelectorAll('a[target="_blank"]').forEach((a) => {
+            a.setAttribute("rel", "noopener noreferrer")
+        });
+    </script>
 </body>
 
 </html>
