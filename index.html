@@ -29,26 +29,65 @@
     </div>
 
     <!-- header text (plxl) -->
-    <div class="header">
-        <h1>plxl</h1>
-        <p>aka Jamie</p>
-    </div>
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>plxl</h1>
+            <p>aka Jamie</p>
+        </div>
 
-    <div class="background">
-        <!-- clickable glass card, text cannot be selected -->
-        <a href="https://github.com/plxl" class="glass-card clean-text">
-            <div class="glass-light"></div>
-            <div class="glass-card-content">
-                <h1>GitHub</h1>
-                <p>Check out my latest projects</p>
+        <div class="content">
+            <!-- projects -->
+            <div class="grid-container">
+                <h2 style="grid-column: 1 / -1;">My Projects</h2>
+
+                <a href="https://github.com/plxl/dtm-visualiser" class="glass-card clean-text">
+                    <div class="glass-light"></div>
+                    <div class="glass-card-content">
+                        <h3>DTM Visualiser</h3>
+                        <p>Python tkinter GUI that synchronises Dolphin emulator frame captures and Dolphin TAS Movies with a live controller drawn to the screen</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/plxl/mpegui" class="glass-card clean-text">
+                    <div class="glass-light"></div>
+                    <div class="glass-card-content">
+                        <h3>MPEGUI</h3>
+                        <p>C# .NET FFmpeg GUI that can perform batch edits to videos, including; encode, compress, trim, delay audio, and much more</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/plxl/Pikcards" class="glass-card clean-text">
+                    <div class="glass-light"></div>
+                    <div class="glass-card-content">
+                        <h3>Pikcards</h3>
+                        <p>Python card game based on the Pikmin video game series by Nintendo (WIP - CLI only)</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/plxl/KStream" class="glass-card clean-text">
+                    <div class="glass-light"></div>
+                    <div class="glass-card-content">
+                        <h3>KStream</h3>
+                        <p>Very WIP Kotlin Android app that streams its camera feed over the network to another Android device</p>
+                    </div>
+                </a>
+
+                <!-- long button -->
+                <a href="https://github.com/plxl" class="glass-card clean-text" style="grid-column: 1 / -1; padding: 0px; max-width: none;">
+                    <div class="glass-light"></div>
+                    <div class="glass-card-content">
+                        <h3>More on GitHub</h3>
+                        <p>Check out my latest projects</p>
+                    </div>
+                </a>
             </div>
-        </a>
-    </div>
-    
-    <!-- credits -->
-    <div class="footer">
-        <p>Check back for more soon!</p>
-        <p>Wave animation modified from <a href="https://codepen.io/goodkatz/pen/LYPGxQz">Goodkatz</a></p>
+        </div>
+        
+        <!-- credits -->
+        <div class="footer">
+            <p>Check back for more soon!</p>
+            <p>Wave animation modified from <a href="https://codepen.io/goodkatz/pen/LYPGxQz">Goodkatz</a></p>
+        </div>
     </div>
 
     <script>
