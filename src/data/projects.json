@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DTM Visualiser",
+        "url": "https://github.com/plxl/dtm-visualiser",
+        "desc": "Python tkinter GUI that synchronises Dolphin emulator frame captures and Dolphin TAS Movies with a live controller drawn to the screen"
+    },
+    {
+        "name": "MPEGUI",
+        "url": "https://github.com/plxl/mpegui",
+        "desc": "C# .NET FFmpeg GUI that can perform batch edits to videos, including; encode, compress, trim, delay audio, and much more"
+    },
+    {
+        "name": "Pikcards",
+        "url": "https://github.com/plxl/Pikcards",
+        "desc": "Python card game based on the Pikmin video game series by Nintendo (WIP - CLI only)"
+    },
+    {
+        "name": "TipCalculator",
+        "url": "https://github.com/plxl/TipCalculator",
+        "desc": "Cross-platform macOS and iOS native Swift app demonstrating basic calculations, smart splitting and intelligent locale validation"
+    }
+]
